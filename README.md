@@ -19,11 +19,11 @@ Insights and recommendations were provided on the following key areas:
 
 **- Prevalence of Physical Health Issues:** Evaluating the physical health repercussions of employees across different work modes and industries.
 
-**Burnout Rate Analysis** Identifying which regions experience the highest burnout rate across differing work arrangments.
+**- Burnout Rate Analysis:** Identifying which regions experience the highest burnout rate across differing work arrangments.
 
-**Work-Life Balance** Exploring how different categories of working hours influences the work-life balance of an employee with regards to their work arrangement.
+**- Work-Life Balance:** Exploring how different categories of working hours influence the work-life balance of an employee with regards to their work arrangement.
 
-**Degree of Social Isolation:**  Assessing the relationship between work arrangements and levels of social isolation, especially in extended remote setups.
+**- Degree of Social Isolation:**  Assessing the relationship between work arrangements and levels of social isolation, especially in extended remote setups.
 
 ## Data Structure Overview
 
@@ -40,7 +40,7 @@ Prior to the beginning of analysis, a variety of checks were conducted for quali
 
 ## Executive Summary
 
-Our analysis found that mental health outcomes improved significantly, with a 24.97% improvement in mental health outcomes when transitioning from onsite to remote work while physical health concerns remained largely unchanged. However, remote work has also been shown to be associated with higher instances of severe burnout, social isolation and poor work-life balance, especially with long working hours. These findings show that although remote work offers real benefits, its effectiveness also largely depends on how companies support employees ergonomically, psychologically and socially. The following sections will explore these trends in detail, supported by dashboard visualisations and actionable recommendations.
+Our analysis found that mental health outcomes improved significantly, with a 24.97% improvement when transitioning from onsite to remote work while physical health concerns remained largely unchanged. However, remote work has also been shown to be associated with higher instances of severe burnout, social isolation and poor work-life balance, especially with long working hours. These findings show that although remote work offers real benefits, its effectiveness also largely depends on how companies support employees ergonomically, psychologically and socially. The following sections will explore these trends in detail, supported by dashboard visualisations and actionable recommendations.
 
 Below is an overview of the Tableau Dashboard and more examples are included throughout this report. The entire interactive dashboard can be viewed [here](./dashboards/remote_work_dashboard.twb)
 
@@ -58,7 +58,7 @@ Below is an overview of the Tableau Dashboard and more examples are included thr
 |------------|---------|
 | ![Mental Health Index in Healthcare](./images/MHI_in_Healthcare.png) | ![Mental Health Index in Finance](./images/MHI_in_Finance.png) |
 
-- Not all industries follow this trend. In the Academic and Non-Profit sectors, transitioning from onsite to remote work led to a 166.66% and 62.50% increase in reported mental health issues respectively. Additionally, switching from Hybrid to Remote in Non-Profit sectors caused a 58.97%.
+- Not all industries follow this trend. In the Academic and Non-Profit sectors, transitioning from onsite to remote work led to a 166.66% and 62.50% increase in reported mental health issues respectively. Additionally, switching from Hybrid to Remote in Non-Profit sectors caused a 58.97% increase in reported mental health issues.
 
 | Academic | Non-Profit |
 |----------|------------|
@@ -68,7 +68,7 @@ Below is an overview of the Tableau Dashboard and more examples are included thr
 
 ### 2. Prevalence of Physical Health Issues
 
-- Reported physical health concerns across work arrangements appears high, ranging from 84% - 86% with no consistent trend favoring either arrangement.
+- The number of reported physical health concerns across work arrangements appears high, ranging from 84% - 86% with no consistent trend favoring either arrangement.
 
 - In certain sectors like Academic and Consulting, transitioning from onsite to remote work has led to a 33.33% and 44.43% increase in physical health issues respectively.
 
@@ -96,9 +96,9 @@ Below is an overview of the Tableau Dashboard and more examples are included thr
 
 - Remote workers working less than 35 hours a week show the best work-life balance, with an average score of 3.99 - approximately 23% higher than onsite workers.
 
-- When weekly working hours are below 45h, remote workers rank highest in work-life balance, followed by hybrid and then onsite workers. However, work-life balance begins to deteriorate noticeably after 45h, with the sharpest declines beyond 50 hours per week.
+- When weekly working hours are below 45h, remote workers rank highest in terms of work-life balance, followed by hybrid and then onsite workers. However, work-life balance begins to deteriorate noticeably after 45h, with the sharpest declines beyond 50 hours per week.
 
-- Among remote workers, scores drop by 13%, from 3.51 (50–54h) to 3.05 (>60h). Hybrid workers maintain moderate but steady scores between 3.06–3.12, while onsite workers record the lowest balance at 2.96 (55–59h).
+- Among remote workers, scores drop by 13%, from 3.51 (50–54h) to 3.05 (>60h). Hybrid workers maintain moderate but steady scores between 3.06–3.12, while onsite workers record the lowest work-life balance at 2.96 (55–59h).
 
 - The 45-49h range marks a critical threshold, as working hours past this point seems to narrow the gap in scores between the three working arrangements, and the benefits of remote work begin to disappear.
 
@@ -120,7 +120,7 @@ Based on the insights that were uncovered, the following recommendations are pro
 
 **- Adopt Flexible and Context-Aware Work Policies:** Remote work can enhance mental health and work-life balance when implemented with proper support strategies, but it is not universally effective across all regions and industries. Work policies should be tailored based on employee needs, industry demands, and regional infrastructure rather than enforcing a one-size-fits-all approach.
 
-**- Mitigate Physical Health Risks through Ergonomics and Routine:** Organizations should support remote and hybrid employees by promiting ergonomic practises, movement, and wellness. This includes offering ergonomic equipment subsidies, encouraging regular breaks, and providing access to wellness or fitness programs to reduce sedentary-related health issues.
+**- Mitigate Physical Health Risks through Ergonomics and Routine:** Organizations should support remote and hybrid employees by promoting ergonomic practises, movement, and wellness. This includes offering ergonomic equipment subsidies, encouraging regular breaks, and providing access to wellness or fitness programs to reduce sedentary-related health issues.
 
 **- Design Working Hours around a 45-hour threshold:** Working hours should be capped at 45 hours per week to maintain optimal work-life balance. Employees who constantly exceed this threshold should be flagged for potential burnout risk, and offered workload reviews or preventive interventions.
 
