@@ -44,6 +44,7 @@ Our analysis found that mental health outcomes improved significantly, with a 24
 
 Below is an overview of the Tableau Dashboard and more examples are included throughout this report. The entire interactive dashboard can be viewed [here](./dashboards/remote_work_dashboard.twb)
 
+![Overview of Dashboard](./images/Overview.png)
 
 ## Insights Deep-Dive
 
